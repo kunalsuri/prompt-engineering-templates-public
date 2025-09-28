@@ -60,9 +60,29 @@ This repository contains reuseable PROMPT templates / examples that have been de
 
 <br>
 
-## Safe AI-Augmented Devlopment 
-- Codacy - VS Code Extension
-- CodeQL - VS Code Extension
+## 🔒 Safe AI-Augmented Development
+
+Enhance your development workflow with these essential security and code quality tools:
+
+### Codacy - VS Code Extension
+- **Static code analysis** and automated code reviews
+- **Security vulnerability detection** for common web application risks
+- **Code quality metrics** and technical debt tracking
+- **Integration with Git workflows** for continuous monitoring
+- Helps maintain high code standards while using AI-assisted development
+- [Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=codacy-app.codacy)
+
+<br>
+
+### CodeQL - VS Code Extension
+- **Semantic code analysis** engine developed by GitHub
+- **Security vulnerability scanning** using advanced code queries
+- **Custom query support** for identifying complex security patterns
+- **Database-backed analysis** for large codebases
+- Essential for identifying potential security issues in AI-generated code
+- [Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-codeql)
+
+These tools complement AI-augmented development by providing an additional layer of code quality and security validation.
 
 <br>
 
