@@ -9,6 +9,9 @@ build/
 # Dependencies
 node_modules/
 
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
+
 # Logs
 logs/
 *.log
