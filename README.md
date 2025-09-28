@@ -1,4 +1,4 @@
-# Prompt Template / Examples for building a SaaS Applications using AI-Augemented Coding Agents.
+# Prompt Template / Examples for building a simple SaaS Application using AI-Augemented Coding Agents.
 
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
