@@ -8,7 +8,7 @@
 
 ## 🚀 Overview
 
-This repository contains prompt templates / examples that are designed for building modern SaaS applications using latest features from React and TypeScript. It provides a structured set of instructions for GitHub Copilot to help you create high-quality, maintainable code following industry best practices.
+This repository contains reuseable PROMPT templates / examples that have been developed for building modern SaaS applications following industry best practices on latest React and TypeScript related developments. It provides a structured set of instructions for GitHub Copilot to help you create high-quality and maintainable code.
 
 ## 📋 What's Included
 
