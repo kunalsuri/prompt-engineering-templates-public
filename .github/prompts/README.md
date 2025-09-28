@@ -1,55 +1,90 @@
-# 🗂 Prompt Manifest
+# 🚀 Prompt Templates Collection
 
-This folder contains reusable **prompt templates** for guiding AI coding agents (e.g., Copilot, GPT) when working on this React + TypeScript SaaS project.  
-Each file defines a **mode** with clear rules and expected outputs.
+A curated collection of **AI agent prompts** designed specifically for React + TypeScript SaaS development. Each template provides specialized guidance for different aspects of modern web application development.
 
----
-
-## 🔎 Quality & Audits
-- **`audit.md`** → Audit the codebase for compliance with React + TypeScript best practices and Feature-Driven Development (FDD). Produces per-file and overall summary.
-- **`accessibility-audit.md`** → Check JSX/HTML for accessibility issues. Reports violations, ARIA usage, keyboard navigation, and fixes.
-- **`performance-audit.md`** → Analyze bundle, rendering, and component structure. Suggests memoization, lazy loading, and code splitting optimizations.
+<div align="center">
+  <p><strong>🎯 Purpose-built • 🔧 Production-ready • ⚡ Agent-optimized</strong></p>
+</div>
 
 ---
 
-## 🛠 Build & Improve
-- **`feature-generator.md`** → Generate new feature modules. Includes components, hooks, services, and integration steps.
-- **`refactor.md`** → Clean and optimize legacy code. Ensures modularity, removes duplication, and aligns with workspace rules.
-- **`migration.md`** → Assist with dependency or framework upgrades (e.g., React, TypeScript, Tailwind). Provides migration plan and code updates.
-- **`error-handling.md`** → Audit and add proper error handling. Suggests `try/catch`, error boundaries, fallback UI, and logging.
+## 📋 Available Templates
+
+### 🔍 **Code Quality & Analysis**
+- **[`audit-react-fdd.prompt.md`](audit-react-fdd.prompt.md)** → Comprehensive codebase audit for React + TypeScript best practices and Feature-Driven Development compliance
+- **[`error-handling.prompt.md`](error-handling.prompt.md)** → Implement robust error handling patterns with try/catch, error boundaries, and user-friendly fallbacks
+
+### 🏗️ **Architecture & Features**
+- **[`feature-generator.prompt.md`](feature-generator.prompt.md)** → Generate complete feature modules following FDD principles with components, hooks, and services
+- **[`add-authentication-sys.prompt.md`](add-authentication-sys.prompt.md)** → Implement secure JWT-based authentication with HttpOnly cookies, CSRF protection, and refresh token rotation
+
+### 🔄 **Development Workflow**
+- **[`codebase-refactor.prompt.md`](codebase-refactor.prompt.md)** → Clean up legacy code, improve modularity, and align with workspace standards
+- **[`codebase-migration.prompt.md`](codebase-migration.prompt.md)** → Handle dependency upgrades and framework migrations with safe, tested approaches
+
+### 📊 **Observability & Monitoring**
+- **[`logging-system.prompt.md`](logging-system.prompt.md)** → Implement structured logging with proper levels, context, and monitoring
+- **[`observability-system.prompt.md`](observability-system.prompt.md)** → Add comprehensive monitoring, metrics, and tracing capabilities
+
+### 📚 **Documentation & Content**
+- **[`docs-generator.prompt.md`](docs-generator.prompt.md)** → Generate structured documentation including architecture, components, APIs, and conventions
+- **[`update-readme.prompt.md`](update-readme.prompt.md)** → Automatically update project READMEs with current features and setup instructions
+
+### 🏛️ **Project Scaffolding**
+- **[`create-saas-app.prompt.md`](create-saas-app.prompt.md)** → Complete SaaS application boilerplate with modern React + TypeScript stack
 
 ---
 
-## ✅ Testing
-- **`testing.md`** → Generate Jest + React Testing Library unit and integration tests. Provides coverage checklist.
+## 🎯 **How to Use**
+
+### **Quick Start**
+1. **Copy any prompt file** to your AI coding agent (Cursor, Copilot, etc.)
+2. **Customize parameters** in the YAML front matter if needed
+3. **Run the prompt** and let the agent work its magic!
+
+### **Template Structure**
+Each prompt includes:
+- **YAML front matter** with `mode` and `description`
+- **Clear role definition** for the AI agent
+- **Specific requirements** and constraints
+- **Expected output format** and deliverables
+
+### **Best Practices**
+✨ **Start with context** - Include relevant project details when using templates
+🔧 **Chain templates** - Use multiple templates in sequence for complex workflows
+📝 **Customize prompts** - Adapt templates to your specific stack and requirements
+🎛️ **Use parameters** - Leverage YAML front matter for easy configuration
 
 ---
 
-## 📖 Documentation
-- **`readme-update.md`** → Scan codebase and update root `README.md` with project description, setup, usage, and feature list.
-- **`docs-generator.md`** → Generate structured documentation under `/docs`:
-  - `architecture.md` → Project architecture & module structure  
-  - `components.md` → Core React components & props  
-  - `hooks.md` → Custom hooks with usage examples  
-  - `api.md` → API endpoints and contracts  
-  - `conventions.md` → Coding style, naming, TypeScript rules  
-  - `changelog.md` → Project changes and history
-- **`release-notes.md`** → Auto-generate release notes based on commits and code changes.
+## 🛣️ **Suggested Workflows**
+
+### **New Project Setup**
+```
+create-saas-app.prompt.md
+→ audit-react-fdd.prompt.md
+→ add-authentication-sys.prompt.md
+→ docs-generator.prompt.md
+```
+
+### **Feature Development**
+```
+feature-generator.prompt.md
+→ error-handling.prompt.md
+→ logging-system.prompt.md
+→ docs-generator.prompt.md
+```
+
+### **Code Quality Improvement**
+```
+audit-react-fdd.prompt.md
+→ codebase-refactor.prompt.md
+→ error-handling.prompt.md
+→ observability-system.prompt.md
+```
 
 ---
 
-## 📚 Knowledge
-- **`knowledge-extractor.md`** → Convert comments, scattered practices, and implicit patterns into consolidated developer guides.
-
----
-
-## 🔖 Usage
-- Run any prompt file as a **workspace instruction** for your coding agent.  
-- Each prompt is written in Markdown with YAML front matter (`mode`, `description`).  
-- Use them as-is or extend them with feature/task-specific details.  
-
----
-
-🚀 With these prompts, you can:  
-- **Audit → Improve → Build → Document → Release**  
-in a repeatable, agent-friendly workflow.
+<div align="center">
+  <p><strong>💡 Pro Tip: These templates work best when used as workspace instructions in your AI coding environment</strong></p>
+</div>
