@@ -60,6 +60,12 @@ This repository contains reuseable PROMPT templates / examples that have been de
 
 <br>
 
+## Safe AI-Augmented Devlopment 
+- Codacy - VS Code Extension
+- CodeQL - VS Code Extension
+
+<br>
+
 ## 📚 More Info about GitHub Copilot
 
 For more information on GitHub Copilot and how to use instruction files, refer to:
