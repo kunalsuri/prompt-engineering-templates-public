@@ -4,18 +4,33 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/features/copilot)
 
+<br>
+
 > Crafted with ❤️ in Paris by [kunalsuri](https://github.com/kunalsuri), blending Human Intellect (mine ✌️) with state-of-the-art Agentic AI Systems (Human-in-the-Loop).
+
+<br>
 
 ## 🚀 Overview
 
 This repository contains reuseable PROMPT templates / examples that have been developed for building modern SaaS applications following industry best practices on latest React and TypeScript related developments. It provides a structured set of instructions for GitHub Copilot to help you create high-quality and maintainable code.
 
-## 📋 What's Included
+<br>
+
+## 📋 What's Included in the `.github` folder
 
 - **Copilot Instructions**: Comprehensive guidelines for GitHub Copilot located in the `.github` folder
+
+<br>
+
+## 📋 What's Included in the `.github/prompts/` folder
+
+> Prompts for the following & more:
+
 - **Architecture Guidelines**: Feature-driven modular architecture approach
 - **Code Style Rules**: Functional components, hooks usage, TypeScript practices
 - **Accessibility Standards**: Requirements to ensure your application is accessible
+
+<br>
 
 ## 🛠 How to Use
 
@@ -31,6 +46,8 @@ This repository contains reuseable PROMPT templates / examples that have been de
 
 3. **Ask specific questions** related to implementing SaaS features, and Copilot will provide code following the established guidelines
 
+<br>
+
 ### Key Areas Covered
 
 - 🧩 **Component Structure**
@@ -41,22 +58,32 @@ This repository contains reuseable PROMPT templates / examples that have been de
 - 🌓 **Dark Mode Support**
 - 🧪 **Testing Approaches**
 
-## 📚 Documentation
+<br>
+
+## 📚 More Info about GitHub Copilot
 
 For more information on GitHub Copilot and how to use instruction files, refer to:
 - [GitHub Copilot Official Documentation](https://docs.github.com/en/copilot)
 - [Copilot Instruction Files Guide](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment)
 
+<br>
+
 ## 📝 Customization
 
-Feel free to customize the instructions in `.github/copilot-instructions.md` to match your project's specific requirements and preferences.
+⭐ Please feel free to customize the instructions in `.github/copilot-instructions.md` and `/prompts` folder to match your project's specific requirements and preferences.
+
+<br>
 
 ## 📄 License
 
 MIT
 
+<br>
+
+## ⭐ Call for Action
+
+**Find this useful? Star the repository!** ⭐
+
+<br>
+
 ---
-
-⭐ **Find this useful? Star the repository!** ⭐
-
-_Built with advanced AI Agentic technology — where human creativity meets artificial intelligence._
