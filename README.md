@@ -26,24 +26,9 @@ This software is provided “as is”, without warranty of any kind, express or 
 
 Use this project at your own discretion and risk.
 
-<br>
-
-## 📝 Note for Contributors
-
 Please review and validate any AI-generated code before committing or merging changes.
 
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details.
-
-
-⚠️ Disclaimer
-
-This project has been developed using a combination of AI-assisted software development and whiteboarding tools, including (but not limited to) VS Code, GitHub Copilot PRO, Windsurf, Cursor, and Krio, with human-in-the-loop supervision and review.
-
-While all reasonable precautions have been taken; including AI-generated code validation, malware scanning, and analysis tools such as CodeQL — the authors do not take any responsibility for potential errors, vulnerabilities, or unintended behavior in the generated code.
-Use at your own discretion and risk.
-
 <br>
-
 
 ## 🚀 Overview
 
@@ -132,6 +117,12 @@ For more information on GitHub Copilot and how to use instruction files, refer t
 ## 📝 Customization
 
 ⭐ Please feel free to customize the instructions in `.github/copilot-instructions.md` and `/prompts` folder to match your project's specific requirements and preferences.
+
+<br>
+
+## Note for Contributors
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details.
 
 <br>
 
