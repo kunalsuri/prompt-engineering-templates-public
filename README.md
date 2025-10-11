@@ -10,6 +10,41 @@
 
 <br>
 
+## 📄 License
+
+This project is distributed under the terms of the MIT License.
+
+<br>
+
+## ⚠️ Disclaimer
+
+This project has been developed using a combination of AI-assisted software development and whiteboarding tools, including (but not limited to) Visual Studio Code, GitHub Copilot Pro, Windsurf, Cursor, and Krio, with Human-in-the-Loop supervision and review.
+
+While every reasonable precaution has been taken, including AI-generated code validation, malware scanning, and static analysis using tools such as CodeQL — the authors and contributors do not accept any responsibility for potential errors, security vulnerabilities, or unintended behavior within the generated code.
+
+This software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+
+Use this project at your own discretion and risk.
+
+<br>
+
+## 📝 Note for Contributors
+
+Please review and validate any AI-generated code before committing or merging changes.
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details.
+
+
+⚠️ Disclaimer
+
+This project has been developed using a combination of AI-assisted software development and whiteboarding tools, including (but not limited to) VS Code, GitHub Copilot PRO, Windsurf, Cursor, and Krio, with human-in-the-loop supervision and review.
+
+While all reasonable precautions have been taken; including AI-generated code validation, malware scanning, and analysis tools such as CodeQL — the authors do not take any responsibility for potential errors, vulnerabilities, or unintended behavior in the generated code.
+Use at your own discretion and risk.
+
+<br>
+
+
 ## 🚀 Overview
 
 This repository contains reuseable PROMPT templates / examples that have been developed for building modern SaaS applications following industry best practices on latest React and TypeScript related developments. It provides a structured set of instructions for GitHub Copilot to help you create high-quality and maintainable code.
@@ -97,12 +132,6 @@ For more information on GitHub Copilot and how to use instruction files, refer t
 ## 📝 Customization
 
 ⭐ Please feel free to customize the instructions in `.github/copilot-instructions.md` and `/prompts` folder to match your project's specific requirements and preferences.
-
-<br>
-
-## 📄 License
-
-MIT
 
 <br>
 
