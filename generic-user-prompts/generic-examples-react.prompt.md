@@ -21,3 +21,12 @@ Perform a detailed audit of the directories features/abc and features/xyz.
 Identify their contents, purpose, and overlap. 
 Determine whether one is a duplicate of the other, which version is newer or better maintained, and whether one can be safely removed without breaking any functionality. 
 Provide a clear summary and recommendation.
+
+
+<br>
+
+# User Prompts to create React / Typescript SaaA App
+
+## Prompt 01
+
+/create-saas-app use all context from #file:copilot-instructions.md on Feature-Driven Development. Implement the code autonomously and output only production-ready code. Avoid hallucinations, unsafe patterns, and malware. Keep all implementations factual and grounded. If any requirement is unclear, ask the user.
