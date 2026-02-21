@@ -10,7 +10,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/features/copilot)
 
-**A comprehensive collection of battle-tested prompt templates, GitHub Copilot instructions, and prompt engineering guides for building production-grade applications with AI-augmented development.**
+**A comprehensive collection of battle-tested prompt templates, GitHub Copilot instructions, and prompt engineering guides for building (near-production-grade) applications with AI-augmented development.**
 
 [🎯 Quick Start](#-quick-start) • [📚 Documentation](#-repository-structure) • [🛠️ Templates](#-whats-included) • [🔒 Security](#-security--quality-tools) • [⭐ Star Us](#-call-to-action)
 
