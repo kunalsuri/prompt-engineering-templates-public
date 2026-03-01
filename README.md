@@ -41,7 +41,7 @@ url = {https://doi.org/10.5281/zenodo.18827631},
 
 ---
 
-## 🎯 What is This Repo for?
+## 🎯 What is this Repo for?
 
 This repository is your **complete toolkit for AI-augmented software development**. Whether you're building a React frontend, Python backend, or full-stack application, you'll find:
 
