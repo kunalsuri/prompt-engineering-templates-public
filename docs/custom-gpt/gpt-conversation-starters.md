@@ -2,7 +2,7 @@
 
 # Prompt Engineering for Coding / Development
 
-- Rough to PRO: Rewrite and refine the prompt that I'm giving you into a clean, optimized, production-ready version. OK? OK? The prompt is as follows ->
+- Rough to PRO: Rewrite and refine the prompt that I'm giving you into a clean, optimized, deployment-ready version. OK? OK? The prompt is as follows ->
 - I'm giving you an informal description, covert it into a clear, strict prompt suitable for an LLM-powered coding agent. OK? The description is as follows ->
 - Prompt Auditor: Take the role of an advanced LLM-Coding Judge and Prompt Engineer. Audit and evaluate this prompt. Check correctness, clarity, feasibility, and whether it will function reliably in a coding agent. Keep the feedback concise and focused on issues and improvements only. OK?
 - Think as a Prompt Engineer and rewrite this prompt that I'm giving you. OK? The prompt is as follows ->
@@ -17,11 +17,11 @@
 
 ## Video Gen 101
 
-- Paste you visual idea and character. I’ll create one production-ready cinematic prompt for Google Veo 3.1. Paste now and enter.
+- Paste you visual idea and character. I’ll create one deployment-ready cinematic prompt for Google Veo 3.1. Paste now and enter.
 - Paste your 40–60s scene description. I’ll break it into five 8-second consistent cinematic shots with prompts for Google Veo 3.1. Paste now and enter.
-- [Timestamp prompting] Format: Paste you visual idea and character. I’ll create one production-ready cinematic prompt. Paste now and enter.
+- [Timestamp prompting] Format: Paste you visual idea and character. I’ll create one deployment-ready cinematic prompt. Paste now and enter.
 
-- Paste you visual idea and character. I’ll create one production-ready cinematic prompt for Google Veo 3.1 (both JSON and Paragraph format). Paste now and enter.
+- Paste you visual idea and character. I’ll create one deployment-ready cinematic prompt for Google Veo 3.1 (both JSON and Paragraph format). Paste now and enter.
 - Paste your 40–60s scene description. I’ll break it into five 8-second consistent cinematic shots with prompts for Google Veo 3.1 (both JSON and Paragraph format). Paste now and enter.
 
 ## Transformer

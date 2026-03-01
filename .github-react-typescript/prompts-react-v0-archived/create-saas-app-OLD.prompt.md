@@ -16,7 +16,7 @@ Generate a **monorepo** SaaS starter kit:
   - **Dev mode**: Express must integrate Vite dev server as middleware (vite.createServer with `middlewareMode: 'ssr'`) so the whole app is accessible at `http://localhost:5000`.
   - **Production**: Express serves the built frontend from `/client/dist` (or equivalent).
 - Shared types & runtime validation: `packages/shared-types` using **Zod**; exports must be importable without type errors (provide tsconfig path mapping and build step).
-- Authentication: `/api/v1/auth/signup` and `/api/v1/auth/login` using JSON file persistence **only for development**; JWT cookie-based auth (`HttpOnly`, `SameSite=Lax`, `secure` conditional on `NODE_ENV=production`). **Warn prominently** that JSON persistence is not production-ready.
+- Authentication: `/api/v1/auth/signup` and `/api/v1/auth/login` using JSON file persistence **only for development**; JWT cookie-based auth (`HttpOnly`, `SameSite=Lax`, `secure` conditional on `NODE_ENV=production`). **Warn prominently** that JSON persistence is not suitable for production.
 - Error monitoring: integrate `@sentry/react` and a server-side Sentry init that reads `SENTRY_DSN` from env; if not provided, use a no-op sink.
 - Logging: centralized logger at `/shared/utils/logger.ts` using Winston.
 - Accessibility: semantic HTML, ARIA attributes, keyboard navigation support in examples.

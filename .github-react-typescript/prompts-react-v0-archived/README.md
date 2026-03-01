@@ -3,7 +3,7 @@
 A curated collection of **AI agent prompts** designed specifically for React + TypeScript SaaS development. Each template provides specialized guidance for different aspects of modern web application development.
 
 <div align="center">
-  <p><strong>🎯 Purpose-built • 🔧 Production-ready • ⚡ Agent-optimized</strong></p>
+  <p><strong>🎯 Purpose-built • 🔧 Deployment-ready • ⚡ Agent-optimized</strong></p>
 </div>
 
 ---

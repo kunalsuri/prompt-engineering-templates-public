@@ -109,7 +109,7 @@ Compute:
 | -------- | -------------------- | ------------------------------------------------------- |
 | **1–3**  | 🔴 Prototype         | Weak structure, minimal types, major refactors required |
 | **4–6**  | 🟡 Moderate          | Some maturity; needs improvement to scale               |
-| **7–8**  | 🟢 Mature Foundation | Strong baseline, production-ready foundation            |
+| **7–8**  | 🟢 Mature Foundation | Strong baseline, deployment-ready foundation            |
 | **9–10** | 💎 Exemplary         | Best-practice implementation, excellent quality         |
 
 ---

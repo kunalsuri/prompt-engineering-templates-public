@@ -18,6 +18,44 @@
 
 </div>
 
+## 📦 Archived Repository Notice
+
+This repository is now **archived** and maintained as a historical educational reference for Q4 2025.
+
+For all ongoing prompt-engineering work, please use:
+
+- **Prompt Engineering Playbook**: [https://github.com/kunalsuri/prompt-engineering-playbook](https://github.com/kunalsuri/prompt-engineering-playbook)
+
+**Citation (APA):**
+
+Suri, K. (2026). *Prompt Engineering Playbook: Curriculum and Reusable Prompt Templates for LLM-powered Development* (v0.1.0-beta). Zenodo. [https://doi.org/10.5281/zenodo.18827631](https://doi.org/10.5281/zenodo.18827631)
+
+**Citation (BibTeX):**
+
+```bibtex
+@software{suri2026promptengineering,
+author = {Suri, Kunal},
+title = {Prompt Engineering Playbook: Curriculum and Reusable Prompt Templates for LLM-powered Development},
+year = {2026},
+version = {v0.1.0-beta},
+publisher = {Zenodo},
+doi = {10.5281/zenodo.18827631},
+url = {https://doi.org/10.5281/zenodo.18827631},
+}
+```
+
+### AI Usage Declaration
+
+**Coding:** GitHub Copilot (Pro/Enterprise), Google Antigravity, and open-weight models run via Ollama were used in Visual Studio Code to support development, primarily for code generation, completion, and debugging. All AI-assisted code was independently reviewed, tested, and refined by the authors. The authors take full responsibility for the correctness and integrity of the codebase.
+
+**Writing & Ideation:** Large language model (LLM) tools — specifically Anthropic Claude and Google Gemini models — were used to support brainstorming, structural organization, and language refinement during the writing process. All underlying arguments, intellectual contributions, and conclusions originate with the authors. All AI-assisted material was critically reviewed and substantially revised by the authors, who take full responsibility for the accuracy, originality, and integrity of the published content.
+
+### Archived Repo Best Practices
+
+- Treat this repository as **read-only reference material**.
+- Prefer the playbook repo above for actively maintained prompt patterns.
+- Re-validate older templates before reuse in current production systems.
+
 ## 🎯 What is This?
 
 This repository is your **complete toolkit for AI-augmented software development**. Whether you're building a React frontend, Python backend, or full-stack application, you'll find:
@@ -143,7 +181,7 @@ Pre-configured instruction files that automatically guide Copilot to:
 1. **Introduction** - Fundamentals of prompt engineering
 2. **Principles** - Clarity, context, iterative refinement
 3. **Patterns** - Few-shot learning, chain-of-thought, role-playing
-4. **Best Practices** - Production-ready techniques
+4. **Best Practices** - Reliable implementation techniques
 5. **Comparisons** - Framework analysis (ReAct, Chain-of-Thought)
 6. **Real Examples** - ChatGPT, local LLMs, multi-agent systems
 
@@ -287,7 +325,7 @@ This repository includes automated security checks:
 
 ### For Individual Developers
 - **Learn prompt engineering** from basics to advanced patterns
-- **Bootstrap new projects** with production-ready templates
+- **Bootstrap new projects** with robust starter templates
 - **Improve AI interactions** with proven prompting techniques
 
 ### For Teams

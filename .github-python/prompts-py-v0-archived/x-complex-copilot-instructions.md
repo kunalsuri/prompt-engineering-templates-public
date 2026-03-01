@@ -51,7 +51,7 @@ Only after Phase 0 is fully green (all checks pass, tests succeed, human review 
 
 **Phase 3 (Production Hardening)** — unlock only after Phase 2 green and explicit human signoff:
 
-- Production-ready packaging, secure secrets handling, hardened logging/monitoring, and access controls.
+- Deployment-grade packaging, secure secrets handling, hardened logging/monitoring, and access controls.
 - Threat modelling, dependency vulnerability scanning, and periodic security reviews.
 - Signed releases and deployment automation (only via documented, auditable pipeline).
 
@@ -594,7 +594,7 @@ When giving Copilot instructions:
 
 > - **Secure and safe**: Protected against common vulnerabilities and malicious code
 > - **Robust and maintainable**: Well-tested with comprehensive error handling
-> - **Production-ready**: Monitored, scalable, and reproducible
+> - **Deployment-ready**: Monitored, scalable, and reproducible
 > - **AI/ML-optimized**: With proper model validation, monitoring, and bias testing
 > - **Modular and reusable**: Clear architecture and separation of concerns
 > - **Well-documented**: Easy to understand for collaborators or students

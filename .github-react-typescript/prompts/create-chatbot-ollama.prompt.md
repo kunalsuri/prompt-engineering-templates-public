@@ -60,7 +60,7 @@ You are responsible for extending the existing SaaS application (frontend: React
 
   * Use environment variables or config constants for Ollama endpoint URLs and model names where appropriate.
 
-* Use idiomatic, production-ready React and Node.js patterns (no experimental or deprecated APIs).
+* Use idiomatic, robust React and Node.js patterns (no experimental or deprecated APIs).
 
 ## **Output Requirements**
 

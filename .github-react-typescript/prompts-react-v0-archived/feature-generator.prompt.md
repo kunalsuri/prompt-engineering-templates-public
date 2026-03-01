@@ -13,7 +13,7 @@ Your goal is to create a complete new **feature module** that integrates seamles
   - **Hooks** for state management and side effects.  
   - **Services** for API calls or business logic.  
   - Integration steps (folder structure, imports, routing, etc.).  
-- Ensure code is clean, modular, and production-ready.  
+- Ensure code is clean, modular, and deployment-ready.  
 - Use the latest **React + TypeScript best practices**.  
 - Include inline comments explaining design decisions.  
 
