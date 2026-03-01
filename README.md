@@ -1,29 +1,24 @@
-<div align="center">
+# Prompt Engineering Templates : A comprehensive collection of battle-tested prompt templates for building apps using LLM-powered software development.
 
-# 🚀 Prompt Engineering Templates
-
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-
-**A comprehensive collection of battle-tested prompt templates, GitHub Copilot instructions, and prompt engineering guides for building (near-production-grade) applications with AI-augmented development.**
-
-[🎯 Quick Start](#-quick-start) • [📚 Documentation](#-repository-structure) • [🛠️ Templates](#-whats-included) • [🔒 Security](#-security--quality-tools) • [⭐ Star Us](#-call-to-action)
 
 ---
 
-</div>
-
-
-## 📦 Archived Repository Notice
+## ⚠️  Archived Repository Notice
 
 This repository is now **archived** and maintained as a historical educational reference for our work in 2025. For all ongoing prompt-engineering work, please refer to:
 
 - **Prompt Engineering Playbook**: [https://github.com/kunalsuri/prompt-engineering-playbook](https://github.com/kunalsuri/prompt-engineering-playbook)
 
+---
+
 **Citation (APA):**
 
 Suri, K. (2026). *Prompt Engineering Playbook: Curriculum and Reusable Prompt Templates for LLM-powered Development* (v0.1.0-beta). Zenodo. [https://doi.org/10.5281/zenodo.18827631](https://doi.org/10.5281/zenodo.18827631)
+
+---
 
 **Citation (BibTeX):**
 
@@ -312,7 +307,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 ---
 
-## ⚠️ Disclaimer : AI Usage Declaration
+## AI Usage Declaration
 
 **Coding:** GitHub Copilot (Pro/Enterprise), Google Antigravity, and open-weight models run via Ollama were used in Visual Studio Code to support development, primarily for code generation, completion, and debugging. All AI-assisted code was independently reviewed, tested, and refined by the authors. The authors take full responsibility for the correctness and integrity of the codebase.
 
