@@ -2,13 +2,9 @@
 
 # 🚀 Prompt Engineering Templates
 
-### *AI-Powered Development Blueprints*
-
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/features/copilot)
 
 **A comprehensive collection of battle-tested prompt templates, GitHub Copilot instructions, and prompt engineering guides for building (near-production-grade) applications with AI-augmented development.**
 
@@ -18,11 +14,10 @@
 
 </div>
 
+
 ## 📦 Archived Repository Notice
 
-This repository is now **archived** and maintained as a historical educational reference for Q4 2025.
-
-For all ongoing prompt-engineering work, please use:
+This repository is now **archived** and maintained as a historical educational reference for our work in 2025. For all ongoing prompt-engineering work, please refer to:
 
 - **Prompt Engineering Playbook**: [https://github.com/kunalsuri/prompt-engineering-playbook](https://github.com/kunalsuri/prompt-engineering-playbook)
 
@@ -44,19 +39,9 @@ url = {https://doi.org/10.5281/zenodo.18827631},
 }
 ```
 
-### AI Usage Declaration
+---
 
-**Coding:** GitHub Copilot (Pro/Enterprise), Google Antigravity, and open-weight models run via Ollama were used in Visual Studio Code to support development, primarily for code generation, completion, and debugging. All AI-assisted code was independently reviewed, tested, and refined by the authors. The authors take full responsibility for the correctness and integrity of the codebase.
-
-**Writing & Ideation:** Large language model (LLM) tools — specifically Anthropic Claude and Google Gemini models — were used to support brainstorming, structural organization, and language refinement during the writing process. All underlying arguments, intellectual contributions, and conclusions originate with the authors. All AI-assisted material was critically reviewed and substantially revised by the authors, who take full responsibility for the accuracy, originality, and integrity of the published content.
-
-### Archived Repo Best Practices
-
-- Treat this repository as **read-only reference material**.
-- Prefer the playbook repo above for actively maintained prompt patterns.
-- Re-validate older templates before reuse in current production systems.
-
-## 🎯 What is This?
+## 🎯 What is This Repo for?
 
 This repository is your **complete toolkit for AI-augmented software development**. Whether you're building a React frontend, Python backend, or full-stack application, you'll find:
 
@@ -65,8 +50,6 @@ This repository is your **complete toolkit for AI-augmented software development
 - **📖 Prompt Engineering Guides** - Learn the principles, patterns, and techniques
 - **🔧 Setup Scripts** - Get started quickly with automated project setup
 - **🔒 Security-First Approach** - Integrated Codacy and Snyk best practices
-
-> *Crafted with ❤️ in Paris by [kunalsuri](https://github.com/kunalsuri) — blending Human Intelligence with cutting-edge AI systems (Human-in-the-Loop).*
 
 ---
 
@@ -106,46 +89,6 @@ This repository is your **complete toolkit for AI-augmented software development
 
 ---
 
-## 📚 Repository Structure
-
-```
-📦 prompt-engineering-templates-public
-├── 🤖 .github/                          # Base GitHub Copilot instructions
-├── 🐍 .github-python/                   # Python-specific instructions & prompts
-│   ├── copilot-instructions.md          # Python dev standards (PEP 8, type hints)
-│   ├── prompts/                         # Python project prompts
-│   └── instructions/                    # Codacy rules for Python
-├── ⚛️  .github-react-typescript/        # React + TypeScript instructions
-│   ├── copilot-instructions.md          # React best practices (hooks, Tailwind)
-│   ├── prompts/                         # React feature prompts
-│   └── instructions/                    # Security & quality rules
-├── 🔄 .github-react-python-fastapi/     # Full-stack (React + FastAPI)
-│   ├── copilot-instructions.md          # Full-stack architecture guidelines
-│   ├── prompts/                         # Full-stack app creation prompts
-│   └── instructions/                    # Integrated security rules
-├── 📖 prompt-engineering-101/           # Complete learning guide
-│   ├── 01-introduction.md               # What is prompt engineering?
-│   ├── 02-principles.md                 # Core principles
-│   ├── 03-patterns.md                   # Common patterns (few-shot, CoT)
-│   ├── 04-best-practices.md             # Production tips
-│   ├── comparisons/                     # Framework comparisons
-│   ├── prompt-examples/                 # Real-world examples
-│   │   ├── agents/                      # Agent-specific prompts
-│   │   ├── creative/                    # Creative use cases
-│   │   └── general/                     # Brainstorming, translation
-│   └── templates/                       # Reusable prompt templates
-├── 🎯 generic-user-prompts/             # Ready-to-use prompt examples
-│   ├── generic-examples-py.prompt.md    # Python examples
-│   └── generic-examples-react.prompt.md # React examples
-├── 🛠️ scripts-utils/                    # Project setup automation
-│   ├── scripts-python/                  # Python project setup
-│   ├── scripts-react-typescript/        # React project setup
-│   └── scripts-react-python-fastapi/    # Full-stack setup
-└── 📄 docs/                             # Additional documentation
-```
-
----
-
 ## 🛠️ What's Included
 
 ### 🤖 GitHub Copilot Instructions
@@ -157,10 +100,14 @@ Pre-configured instruction files that automatically guide Copilot to:
 - **Enforce Security** - Input validation, no hardcoded secrets, sanitized outputs
 - **Ensure Quality** - Type hints, error handling, accessibility standards
 
+---
+
 **Supported Stacks:**
 - `✅ React + TypeScript` - Modern frontend with Tailwind CSS, Zustand, TanStack Query
 - `✅ Python 3.12+` - Backend with type hints, dataclasses, async patterns
 - `✅ FastAPI + React` - Full-stack with unified architecture
+
+---
 
 ### 📝 Prompt Templates
 
@@ -170,10 +117,7 @@ Pre-configured instruction files that automatically guide Copilot to:
 - Building multi-agent workflows
 - Code auditing and refactoring
 
-**Specialized Prompts:**
-- `agents/` - Research helpers, code auditors, planning agents
-- `creative/` - Character building, plot generation
-- `general/` - Brainstorming, summarization, translation
+---
 
 ### 📖 Prompt Engineering Education
 
@@ -360,23 +304,6 @@ This repository includes automated security checks:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **🐛 Report Issues** - Found a bug or have a suggestion? [Open an issue](https://github.com/kunalsuri/prompt-engineering-templates-public/issues)
-2. **📝 Submit PRs** - Improve documentation, add examples, fix bugs
-3. **⭐ Share Knowledge** - Add your own prompt templates or best practices
-4. **💬 Spread the Word** - Share this repository with your team
-
-**Before Contributing:**
-- Review existing instructions for style consistency
-- Test your prompts with GitHub Copilot
-- Include examples and documentation
-- Follow security best practices
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
@@ -385,51 +312,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimer : AI Usage Declaration
 
-This project has been developed using AI-assisted development tools including:
-- Visual Studio Code with GitHub Copilot Pro
-- Windsurf, Cursor, and other AI coding assistants
-- Human-in-the-Loop supervision and review
+**Coding:** GitHub Copilot (Pro/Enterprise), Google Antigravity, and open-weight models run via Ollama were used in Visual Studio Code to support development, primarily for code generation, completion, and debugging. All AI-assisted code was independently reviewed, tested, and refined by the authors. The authors take full responsibility for the correctness and integrity of the codebase.
 
-**Security Notice:**
-- All code has been validated and scanned
-- Malware scanning and static analysis applied (CodeQL)
-- However, NO WARRANTY is provided
-- Review AI-generated code before production use
-
-**Use at your own discretion and risk.** This software is provided "as is" without any warranties.
+**Writing & Ideation:** Large language model (LLM) tools — specifically Anthropic Claude and Google Gemini models — were used to support brainstorming, structural organization, and language refinement during the writing process. All underlying arguments, intellectual contributions, and conclusions originate with the authors. All AI-assisted material was critically reviewed and substantially revised by the authors, who take full responsibility for the accuracy, originality, and integrity of the published content.
 
 ---
 
-## 🌟 Call to Action
-
-**Find this useful? Here's how to support:**
-
-<div align="center">
-
-### ⭐ Star this repository to show your support!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=kunalsuri/prompt-engineering-templates-public&type=Date)](https://star-history.com/#kunalsuri/prompt-engineering-templates-public&Date)
-
-**🔔 Watch for updates** • **🍴 Fork for your projects** • **💬 Share with your team**
-
-</div>
-
----
-
-## 📞 Connect
-
-- **GitHub**: [@kunalsuri](https://github.com/kunalsuri)
-- **Issues**: [Report bugs or request features](https://github.com/kunalsuri/prompt-engineering-templates-public/issues)
-- **Discussions**: Share your experience and ask questions
-
----
-
-<div align="center">
-
-**Built with 💻 & 🤖 in Paris** | **Human Intelligence + AI Augmentation**
-
-*Empowering developers to build better software, faster.*
-
-</div>
+> *Crafted with ❤️ in Paris by [kunalsuri](https://github.com/kunalsuri) — blending Human Intelligence with cutting-edge AI systems (Human-in-the-Loop).*
